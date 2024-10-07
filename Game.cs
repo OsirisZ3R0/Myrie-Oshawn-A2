@@ -10,6 +10,7 @@ namespace Game10003
     /// </summary>
     public class Game
     {
+
         // Place your variables here:
        
 
@@ -39,6 +40,15 @@ namespace Game10003
             Draw.Line(400, 350, 250, 250);
             Draw.Line(250, 250, 300, 200);
             Draw.Line(300, 200, 400, 200);
+            Draw.Line(450, 200, 500, 250);
+            Draw.Line(500, 250, 400, 350);
+            Draw.Line(400, 350, 300, 250);
+            Draw.Line(250, 250, 550, 250);
+            Draw.Line(400, 200, 400, 350);
+            Draw.Line(300, 250, 350, 200);
+
+            
+
 
 
 
