@@ -47,8 +47,18 @@ namespace Game10003
             Draw.Line(400, 200, 400, 350);
             Draw.Line(300, 250, 350, 200);
 
-            
 
+            Draw.FillColor = new Color(137, 207, 240);
+            Draw.LineColor = Color.Black;
+            Draw.LineSize = (2);
+            Draw.Quad(250, 250, 300, 250, 350, 200, 300, 200);
+            Draw.Quad(300, 250, 350, 200, 400, 200, 400, 250);
+            Draw.Quad(400, 250, 400, 200, 450, 200, 500, 250);
+            Draw.Quad(450, 200, 500, 200, 550, 250, 500, 250);
+            Draw.Triangle(250, 250, 300, 250, 400, 350);
+            Draw.Triangle(300, 250, 400, 250, 400, 350);
+            Draw.Triangle(400, 350, 400, 250, 500, 250);
+            Draw.Triangle(400, 350, 500, 250, 550, 250);
 
 
 
