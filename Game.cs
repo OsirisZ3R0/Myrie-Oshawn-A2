@@ -79,7 +79,7 @@ namespace Game10003
                 
 
             {
-                DrawDiamond(Diamondposition[i], DiamondRadii[i]);
+
             }
         }
 
