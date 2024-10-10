@@ -12,7 +12,7 @@ namespace Game10003
     {
 
         // Place your variables here:
-       
+
 
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace Game10003
             Window.ClearBackground(Color.OffWhite);
 
             DrawDiamond(-200, 0);
-            DrawDiamond(200, 0); 
+            DrawDiamond(200, 0);
             DrawDiamond(0, -100);
             DrawDiamond(0, 100);
 
@@ -41,7 +41,7 @@ namespace Game10003
 
 
         }
-         void DrawDiamond(int offsetX, int offsetY)
+        void DrawDiamond(int offsetX, int offsetY)
         {
             // Draw fill color
             Draw.FillColor = Color.Blue;
@@ -59,7 +59,7 @@ namespace Game10003
             Draw.Line(400 + offsetX, 200 + offsetY, 400 + offsetX, 350 + offsetY);
             Draw.Line(300 + offsetX, 250 + offsetY, 350 + offsetX, 200 + offsetY);
 
-            
+            // light Blue Color in 
             Draw.FillColor = new Color(137, 207, 240);
             Draw.LineColor = Color.Black;
             Draw.LineSize = (2);
@@ -71,6 +71,17 @@ namespace Game10003
             Draw.Triangle(300 + offsetX, 250 + offsetY, 400 + offsetX, 250 + offsetY, 400 + offsetX, 350 + offsetY);
             Draw.Triangle(400 + offsetX, 350 + offsetY, 400 + offsetX, 250 + offsetY, 500 + offsetX, 250 + offsetY);
             Draw.Triangle(400 + offsetX, 350 + offsetY, 500 + offsetX, 250 + offsetY, 550 + offsetX, 250 + offsetY);
+
+
+            // Make a Loop that Generates random Colors within diamonds 
+             
+            for (int i = 0; i < 10; i++)
+                
+
+            {
+                DrawDiamond(Diamondposition[i], DiamondRadii[i]);
+            }
         }
-    } 
+
+    }
 }
